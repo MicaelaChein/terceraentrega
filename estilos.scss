@@ -288,3 +288,73 @@ h2{
     text-align: center;
     background-color: $color2;
 }
+
+$productos: (
+    pro1: rgb(61, 61, 122),
+    pro2: rgb(80, 80, 141),
+    pro3:rgb(157, 157, 187),
+    pro4:rgb(229, 229, 245),
+    pro5:blue
+);
+@each $pro, $font in $productos {
+    .btn--#{$pro} {
+        background-color: $color5;
+        height: 250px;
+        width: 100%;
+        border: 2px double $color4;
+        text-align: center;
+        font-size: 30px;
+        color: $color1;
+        text-transform: capitalize;
+        text-shadow: 0 0 5px $font;
+        font-family: $font1;
+    }
+    
+    }
+    
+.insumos{
+    background-color: $color7;
+    border: 2px solid $color4;
+    height: 250px;
+    width: 100%;
+    padding-left: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px $color4;
+    
+}
+.insumos--insu{
+    @extend .insumos;
+    border-radius: 20px;
+    color: $color1;
+    font-size: 40px;
+}
+.box {
+    background-color: $color5;
+    font-size: 40px;
+    color: $color1;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 0 0 4px $color4;
+    font-family: $font2;
+    border: 2px double $color4;
+    border-radius: 20px;
+}
+@mixin tamaño($width, $height, $bcolor) {
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
+.box{
+    @include tamaño(600px,250px , $color3);
+}
+.box2{
+    @include tamaño(300px,250px, $color3 );
+    color: $color1;
+    text-shadow: 0 0 3px $color7;
+    font-size: 40px;
+    font-family: $font4;
+    border: 2px double $color4;
+    text-align: center;
+    border-radius: 20px;
+}

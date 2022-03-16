@@ -291,4 +291,117 @@ h2 {
   background-color: #5b5b8a;
 }
 
+.btn--pro1 {
+  background-color: #807a7a;
+  height: 250px;
+  width: 100%;
+  border: 2px double #0e0101;
+  text-align: center;
+  font-size: 30px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px #3d3d7a;
+  font-family: "Fredoka", sans-serif;
+}
+
+.btn--pro2 {
+  background-color: #807a7a;
+  height: 250px;
+  width: 100%;
+  border: 2px double #0e0101;
+  text-align: center;
+  font-size: 30px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px #50508d;
+  font-family: "Fredoka", sans-serif;
+}
+
+.btn--pro3 {
+  background-color: #807a7a;
+  height: 250px;
+  width: 100%;
+  border: 2px double #0e0101;
+  text-align: center;
+  font-size: 30px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px #9d9dbb;
+  font-family: "Fredoka", sans-serif;
+}
+
+.btn--pro4 {
+  background-color: #807a7a;
+  height: 250px;
+  width: 100%;
+  border: 2px double #0e0101;
+  text-align: center;
+  font-size: 30px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px #e5e5f5;
+  font-family: "Fredoka", sans-serif;
+}
+
+.btn--pro5 {
+  background-color: #807a7a;
+  height: 250px;
+  width: 100%;
+  border: 2px double #0e0101;
+  text-align: center;
+  font-size: 30px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px blue;
+  font-family: "Fredoka", sans-serif;
+}
+
+.insumos, .insumos--insu {
+  background-color: #da9c28;
+  border: 2px solid #0e0101;
+  height: 250px;
+  width: 100%;
+  padding-left: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #0e0101;
+}
+
+.insumos--insu {
+  border-radius: 20px;
+  color: #ddddb8;
+  font-size: 40px;
+}
+
+.box {
+  background-color: #807a7a;
+  font-size: 40px;
+  color: #ddddb8;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 0 0 4px #0e0101;
+  font-family: "Fredoka", sans-serif;
+  border: 2px double #0e0101;
+  border-radius: 20px;
+}
+
+.box {
+  width: 600px;
+  height: 250px;
+  background-color: #b88d3d;
+}
+
+.box2 {
+  width: 300px;
+  height: 250px;
+  background-color: #b88d3d;
+  color: #ddddb8;
+  text-shadow: 0 0 3px #da9c28;
+  font-size: 40px;
+  font-family: "Tajawal", sans-serif;
+  border: 2px double #0e0101;
+  text-align: center;
+  border-radius: 20px;
+}
+
 /*# sourceMappingURL=estilos.css.map */

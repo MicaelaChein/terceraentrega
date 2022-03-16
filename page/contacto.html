@@ -40,11 +40,12 @@
       <!---------------------------fin barra de navegacion------------------------------------->
 
       <!----------------------------inicio formulario---------------------------------------->
-      <form action="formulario">
+      <form action="formulario" name="miformulario" method="post" netlify>
+          <h3 class="titulo">Contacto</h3>
         <label for="Nombre" class="nombre">Nombre</label>
-        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Nombre" required>
         <label for="Apellido" class="apellido">Apellido</label>
-        <input type="text" placeholder="Apellido">
+        <input type="text" name="Apellido" class="imput" placeholder="Apellido" required>
         <br>
         <label for="Telefono" class="telefono">Telefono</label>
         <input type="number" placeholder="Telefono" required>
